@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    font-family: Inter, system-ui, Segoe UI, Arial, sans-serif;
+}
