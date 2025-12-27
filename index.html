@@ -6,12 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <main class="card">
-            <h1>Career Guide</h1>
-            <p>Welcome to the Career Guide. Here you will find resources and tips to help you navigate your career path effectively.</p>
-        </main>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div id="main-container" class="w-full max-w-4xl bg-white rounded-3xl shadow-2xl overflow-hidden p-6 md:p-12">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold gradient-text pb-2 inline-block">Career Quest</h1>
+            <p class="text-lg text-gray-600 mt-2">Your personalized path to a successful future.</p>
+        </header>
+            <div class="card-bg rounded-2xl p-6 shadow-lg border space-y-3">
+                <button onclick="showPage('quiz')" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold">Discover Stream</button>
+                <button onclick="renderCareerSelector()" class="w-full bg-green-600 text-white py-3 rounded-xl font-bold">Manage Roadmap</button>
+                <button onclick="window.findScholarships()" class="w-full bg-orange-500 text-white py-3 rounded-xl font-bold">Find Scholarships ✨</button>
+            </div>
 
 
     </div>
