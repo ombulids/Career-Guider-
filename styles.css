@@ -1,36 +1,29 @@
-.justify-center {
-    justify-content: center;
-}
-.items-center {
-    align-items: center;
-}
-.min-h-screen {
-    min-height: 100vh;
+#main-container{
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+     --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 .p-4 {
     padding: 1rem;
 }
-.bg-gray-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
-}
-.shadow-2xl {
-    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);}
 .p-6{padding: 1.5rem;}
-body {
+body {     
+            min-height: 100vh;
+            --tw-bg-opacity: 1;
+            background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));   
             font-family: 'Inter', sans-serif;
             background-color: #f3f4f6;
             margin: 0;
             line-height: inherit;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
         }
 .card-bg {
             background-color: #ffffff;
         }
-.items-center {
-    align-items: center;
-}
 .shadow-2xl {
     --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
