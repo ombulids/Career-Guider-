@@ -8,7 +8,7 @@
 .p-4 {
     padding: 1rem;
 }
-.p-6{padding: 1.5rem;}
+.p-6{padding: 2.0rem;}
 body {     
             min-height: 100vh;
             --tw-bg-opacity: 1;
@@ -19,7 +19,7 @@ body {
             line-height: inherit;
             align-items: center;
             justify-content: center;
-            padding: 1.5rem;
+            padding: 2.0rem;
         }
 .card-bg {
             background-color: #ffffff;
@@ -40,13 +40,12 @@ body {
     overflow: hidden;
 }
 .max-w-4xl {
-    max-width: 56rem;
+    max-width: 54rem;
 }
 .w-full {
     width: 100%;
 }
 div {
-    display: block;
     unicode-bidi: isolate;
 }
 .font-bold {
